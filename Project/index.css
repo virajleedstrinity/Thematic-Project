@@ -1,0 +1,56 @@
+body {
+    background-image: url('https://i.pinimg.com/736x/d6/c9/ad/d6c9ad2297a0639a4e7620ed39a1e5d3.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    background-color: black;
+    color: green;
+    z-index: 1;
+}
+
+
+#head {
+    height: 50px;
+    border: 2px solid linen;
+    background-color: black;
+    z-index: 1;
+}
+
+#title {
+    text-align: center;
+    font-family: 'Lucida Console', Courier, monospace;
+    color: linen;
+    font-size: 50px;
+
+}
+/* 
+#logo {
+    height: 100%;
+    width: auto;
+    position: absolute;
+    top: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+} */
+
+/* #logo {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    z-index: 0;
+} */
+
+#footer {
+    height: 50px;
+    border: 2px solid linen;
+    text-align: center;
+    font-family: 'Lucida Console', Courier, monospace;
+    color: linen;
+    font-size: 20px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: black;
+}
